@@ -1,11 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "KUJI HUB | Adopt Me", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
-})
-
-
-
-getgenv().gui = false
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Ultra-Scripts/AdoptmeScript/main/AdoptmeScript/WAZTGSY-adopt-me.lua"))() 
 
 --[[
 Name = <string> - The name of the UI.
@@ -460,3 +454,5 @@ PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 
 Tab:AddParagraph("ACTIVATED❗","Script Activated Timer 0:00")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SScripterr/KUJI/main/KUJI"))()
