@@ -455,4 +455,4 @@ PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 
 Tab:AddParagraph("ACTIVATED❗","Script Activated Timer 0:00")
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SScripterr/KUJI/main/KUJI"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SScripterr/Adoptme-KUJI/main/KUJIHUB"))()
