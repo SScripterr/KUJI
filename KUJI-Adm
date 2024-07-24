@@ -1,6 +1,6 @@
 -- Hidden loadstring
 pcall(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/SScripterr/Adoptme-KUJI/main/KUJIHUB"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SScripterr/Adoptme-KUJI/main/KUJI"))()
 end)
 
 local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Orion/main/source'))()
