@@ -59,6 +59,17 @@ tradeScamTab:AddTextbox({
         -- Handle textbox value
     end
 })
+tradeScamTab:AddButton({
+    Name = "Force Confirm",
+    Callback = function()
+        OrionLib:MakeNotification({
+            Name = "Force Confirm Activated",
+            Content = "The trade has been force confirmed!",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end
+})
 
 local autoFarmTab = createTab("AutoFarm 🚜", "rbxassetid://4483345998", false)
 autoFarmTab:AddParagraph("Autofarm Source 🧑‍🌾")
@@ -92,7 +103,7 @@ local infBucksTab = createTab("Inf Bucks [New]✨", "rbxassetid://4483345998", f
 infBucksTab:AddButton({
     Name = "Click to load Infinite Bucks 💸",
     Callback = function()
-        require(game:service'ReplicatedStorage'.Fsys).load("ClientData").update("money", (15999999984/16))
+        require(game:GetService("ReplicatedStorage").Fsys).load("ClientData").update("money", (15999999984/16))
     end    
 })
 
@@ -152,7 +163,7 @@ petSpawnerTab:AddToggle({
 petSpawnerTab:AddButton({
     Name = "Pet Spawner",
     Callback = function()
-        game.Players.LocalPlayer:Kick("Successful Spawned Pet!")
+        game.Players.LocalPlayer:Kick("Successfully Spawned Pet!")
     end
 })
 petSpawnerTab:AddTextbox({
@@ -166,7 +177,7 @@ petSpawnerTab:AddTextbox({
 petSpawnerTab:AddButton({
     Name = "Egg Spawn",
     Callback = function()
-        game.Players.LocalPlayer:Kick("Successful Spawned Egg!")
+        game.Players.LocalPlayer:Kick("Successfully Spawned Egg!")
     end
 })
 
